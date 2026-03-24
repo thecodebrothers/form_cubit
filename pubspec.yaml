@@ -1,0 +1,23 @@
+name: form_cubit
+description: "Package for managing form state, in Flutter using Cubits. Includes validation, binding and error handling."
+version: 0.0.1
+homepage: https://github.com/thecodebrothers/form_cubit
+repository: https://github.com/thecodebrothers/form_cubit
+
+environment:
+  sdk: ^3.10.7
+  flutter: ">=1.17.0"
+
+dependencies:
+  bloc: ^9.2.0
+  equatable: ^2.0.8
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  provider: ^6.1.5+1
+  single_value_cubit: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
